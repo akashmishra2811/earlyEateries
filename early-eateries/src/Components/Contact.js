@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import contacImage from "./../Store/Photos/contact2.jpg";
-import contacImage1 from "./../Store/Photos/contact1.png";
+
 export default function Contact() {
   return (
     <div>
