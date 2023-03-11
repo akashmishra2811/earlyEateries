@@ -20,11 +20,11 @@ export default function Header(props) {
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <div>
+    <div className="justify-content-center" style={{ backgroundColor: "" }}>
       <Navbar>
         <NavbarBrand href="/">earlyEateries</NavbarBrand>
 
-        <Nav tabs>
+        <Nav tabs style={{ backgroundColor: "white" }}>
           <NavItem>
             <NavLink href="/home">Home</NavLink>
           </NavItem>

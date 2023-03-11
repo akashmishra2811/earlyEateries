@@ -20,48 +20,55 @@ export default function Home() {
 
   const getEateryCardList = (List) => {
     return (
-      <CardGroup>
-        {List.map((eatry) => {
-          return (
-            <Card style={{ display: "flex", flexDirection: "row" }}>
-              <CardImg
-                alt="Card image cap"
-                src={image}
-                top
-                height={300}
-                width="100%"
-                style={{ width: "50%" }}
-              />
-              <CardBody>
-                <CardTitle tag="h5">{eatry.name}</CardTitle>
-                <CardSubtitle className="mb-2 text-muted" tag="h6">
-                  Card subtitle
-                </CardSubtitle>
-                <ListGroup flush>
-                  <ListGroupItem>
-                    <div></div>
-                  </ListGroupItem>
-                  <ListGroupItem>A second item</ListGroupItem>
-                  <ListGroupItem>And a third item</ListGroupItem>
-                </ListGroup>
-                <Button>Button</Button>
-              </CardBody>
-            </Card>
-          );
-        })}
-      </CardGroup>
+      <div class="eatery">
+        <CardGroup style={{ display: "flex", flexDirection: "column" }}>
+          {List.map((eatery) => {
+            console.log("eatry", eatery);
+            return (
+              <Card style={{ display: "flex", flexDirection: "row" }}>
+                <CardImg
+                  alt="Card image cap"
+                  src={image}
+                  top
+                  height={300}
+                  width="100%"
+                  style={{ width: "50%" }}
+                />
+                <CardBody>
+                  <CardTitle tag="h5">
+                    <a href={eatery.WebsiteLink}>{eatery.eateryName}</a>
+                  </CardTitle>
+                  <CardSubtitle className="mb-2 text-muted" tag="h6">
+                    since 1912
+                  </CardSubtitle>
+                  <ListGroup flush>
+                    <ListGroupItem>
+                      <b>Dish - </b> {eatery.dishName}
+                    </ListGroupItem>
+                    <ListGroupItem>
+                      <b>Price - </b> {eatery.price}
+                    </ListGroupItem>
+                    <ListGroupItem>
+                      <b>Location - </b> {eatery.location}
+                    </ListGroupItem>
+                    <ListGroupItem>
+                      <b>Date - </b> {eatery.date}
+                    </ListGroupItem>
+                  </ListGroup>
+                </CardBody>
+              </Card>
+            );
+          })}
+        </CardGroup>
+      </div>
     );
   };
   return (
-    <div class="container">
+    <div>
       <div class="d-flex">
-        <div class="leftpane">
-          <h1>Test Page</h1>
-        </div>
+        <div class="leftpane"></div>
         <div class="middlepane">{getEateryCardList(eateryList)}</div>
-        <div class="rightpane">
-          <h1>Test Page</h1>
-        </div>
+        <div class="rightpane"></div>
       </div>
     </div>
   );
