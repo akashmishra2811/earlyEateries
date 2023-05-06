@@ -21,11 +21,24 @@ export default function Home() {
   const getEateryCardList = (List) => {
     return (
       <div class="eatery">
-        <CardGroup style={{ display: "flex", flexDirection: "column" }}>
+        <CardGroup
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            backgroundColor: "white",
+          }}
+        >
           {List.map((eatery) => {
             console.log("eatry", eatery);
             return (
-              <Card style={{ display: "flex", flexDirection: "row" }}>
+              <Card
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  backgroundColor: "#E7E8D1",
+                  margin: "0.8rem",
+                }}
+              >
                 <CardImg
                   alt="Card image cap"
                   src={image}
@@ -35,24 +48,55 @@ export default function Home() {
                   style={{ width: "50%" }}
                 />
                 <CardBody>
-                  <CardTitle tag="h5">
+                  <CardTitle
+                    tag="h5"
+                    style={{
+                      backgroundColor: "#E7E8D1",
+                      fontFamily: "Segoe UI",
+                    }}
+                  >
                     <a href={eatery.WebsiteLink}>{eatery.eateryName}</a>
                   </CardTitle>
-                  <CardSubtitle className="mb-2 text-muted" tag="h6">
+                  <CardSubtitle className="mb-2 text-muted item" tag="h6">
                     since 1912
                   </CardSubtitle>
-                  <ListGroup flush>
-                    <ListGroupItem>
-                      <b>Dish - </b> {eatery.dishName}
+                  <ListGroup
+                    flush
+                    style={{
+                      backgroundColor: "#E7E8D1",
+                    }}
+                  >
+                    <ListGroupItem
+                      style={{
+                        backgroundColor: "#E7E8D1",
+                      }}
+                    >
+                      <b style={{ fontFamily: "MV Boli" }}>Dish - </b>{" "}
+                      {eatery.dishName}
                     </ListGroupItem>
-                    <ListGroupItem>
-                      <b>Price - </b> {eatery.price}
+                    <ListGroupItem
+                      style={{
+                        backgroundColor: "#E7E8D1",
+                      }}
+                    >
+                      <b style={{ fontFamily: "MV Boli" }}>Price - </b>{" "}
+                      {eatery.price}
                     </ListGroupItem>
-                    <ListGroupItem>
-                      <b>Location - </b> {eatery.location}
+                    <ListGroupItem
+                      style={{
+                        backgroundColor: "#E7E8D1",
+                      }}
+                    >
+                      <b style={{ fontFamily: "MV Boli" }}>Location - </b>{" "}
+                      {eatery.location}
                     </ListGroupItem>
-                    <ListGroupItem>
-                      <b>Date - </b> {eatery.date}
+                    <ListGroupItem
+                      style={{
+                        backgroundColor: "#E7E8D1",
+                      }}
+                    >
+                      <b style={{ fontFamily: "MV Boli" }}>Date - </b>{" "}
+                      {eatery.date}
                     </ListGroupItem>
                   </ListGroup>
                 </CardBody>
@@ -65,7 +109,7 @@ export default function Home() {
   };
   return (
     <div>
-      <div class="d-flex">
+      <div class="d-flex" style={{}}>
         <div class="leftpane"></div>
         <div class="middlepane">{getEateryCardList(eateryList)}</div>
         <div class="rightpane"></div>

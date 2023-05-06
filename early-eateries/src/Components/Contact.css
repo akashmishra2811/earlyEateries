@@ -2,26 +2,26 @@
 
 
 
-.leftpanecontact {
+/* .leftpanecontact {
   width: 50%;
   height: 100vh;
   background-color:white;
-}
-
-/* .middlepane {
-  width: 50%;
-  height: auto;
-  justify-content: center;
-  background-color:white;
-    display: flex;
-   flex-direction: "row";
 } */
 
-.rightpanecontact {
+.middlepane {
+  width: 50%;
+  height: auto;
+  /* justify-content: center; */
+  background-color:white;
+    /* display: flex;
+   flex-direction: "row"; */
+}
+
+/* .rightpanecontact {
   width: 50%;
   height: 100vh;
   background-color:white;
-}
+} */
 
 body {
   margin: 0!important;

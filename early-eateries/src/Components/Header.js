@@ -20,22 +20,67 @@ export default function Header(props) {
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <div className="justify-content-center" style={{ backgroundColor: "" }}>
+    <div
+      className="justify-content-center"
+      style={{
+        backgroundColor: " #66e0ff",
+        color: "white",
+      }}
+    >
       <Navbar>
-        <NavbarBrand href="/">earlyEateries</NavbarBrand>
+        <NavbarBrand
+          href="/"
+          style={{
+            color: "black",
+            textDecoration: "none",
+            fontFamily: "Segoe Script",
+          }}
+        >
+          earlyEateries
+        </NavbarBrand>
 
-        <Nav tabs style={{ backgroundColor: "white" }}>
+        <Nav tabs style={{ backgroundColor: "#66e0ff " }}>
           <NavItem>
-            <NavLink href="/home">Home</NavLink>
+            <NavLink
+              style={{
+                color: "white",
+                textDecoration: "none",
+                fontFamily: "Comic Sans MS",
+              }}
+              href="/home"
+            >
+              Home
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/about">About Us</NavLink>
+            <NavLink
+              style={{
+                color: "white",
+                textDecoration: "none",
+                fontFamily: "Comic Sans MS",
+                fontSize: "100%",
+              }}
+              href="/about"
+            >
+              About Us
+            </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink href="/contact">Contact Us</NavLink>
+            <NavLink
+              style={{
+                color: "white",
+                textDecoration: "none",
+                fontFamily: "Comic Sans MS",
+              }}
+              href="/contact"
+            >
+              Contact Us
+            </NavLink>
           </NavItem>
         </Nav>
-        <NavbarText>Login</NavbarText>
+        <NavbarText style={{ color: "white", textDecoration: "none" }}>
+          Login
+        </NavbarText>
       </Navbar>
     </div>
   );
