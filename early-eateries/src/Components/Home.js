@@ -13,9 +13,6 @@ import {
 } from "reactstrap";
 import "./Home.css";
 import { earlyeateries } from "../Store/data.js";
-import image0 from "./../Store/Photos/vaidyaMisal.jpg";
-import image1 from "./../Store/Photos/mutton_cutlet.jpg";
-import image2 from "./../Store/Photos/cold_drink.jpg";
 export default function Home() {
   const eateryList = earlyeateries;
   console.log(eateryList);
