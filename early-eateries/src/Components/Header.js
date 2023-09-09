@@ -6,14 +6,10 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
+  Button,
   NavbarText,
   Alert,
 } from "reactstrap";
-
 import React, { useState } from "react";
 export default function Header(props) {
   const [isOpen, setIsOpen] = useState(false);
@@ -78,9 +74,10 @@ export default function Header(props) {
             </NavLink>
           </NavItem>
         </Nav>
-        <NavbarText style={{ color: "white", textDecoration: "none" }}>
-          Login
-        </NavbarText>
+        <Button
+          color="#66e0ff"
+         
+        >Login</Button>
       </Navbar>
     </div>
   );
