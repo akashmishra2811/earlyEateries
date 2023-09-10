@@ -34,4 +34,161 @@ export const earlyeateries = [
     WebsiteLink:
       "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
   },
+
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
+  {
+    eateryName: "Dorabjee and Sons",
+    dishName: "Ardeshir Rasberry/Lemon",
+    price: " ₹ 40-50",
+    location:
+      "Sharbat Wala, 845, Dastur Meher Road, Chowk, Pune, Maharashtra 411001",
+    date: " 07 May 2022",
+    menu: "",
+    image: require("./Photos/cold_drink.jpg"),
+    WebsiteLink:
+      "https://www.google.com/maps/dir/18.557961,73.7830858/dorabjee+and+sons/@18.5381258,73.7613649,12z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x3bc2c04f7dfab193:0xa8add9a5d3292e2b!2m2!1d73.877045!2d18.515024?hl=en",
+  },
 ];

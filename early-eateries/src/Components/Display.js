@@ -9,21 +9,18 @@ import {
 
 const items = [
   {
-    src: require("./../Store/Photos/display/chicken_display.jpg"),
-    altText: "Slide 1",
-    caption: "Slide 1",
+    src: require("./../Store/Photos/display/misal.jpg"),
+
     key: 1,
   },
   {
-    src: require("./../Store/Photos/display/cold_drink_display.jpg"),
-    altText: "Slide 2",
-    caption: "Slide 2",
+    src: require("./../Store/Photos/display/dish (1).jpg"),
+
     key: 2,
   },
   {
-    src: require("./../Store/Photos/display/dorabji_display.jpg"),
-    altText: "Slide 3",
-    caption: "Slide 3",
+    src: require("./../Store/Photos/display/vadapav.jpg"),
+
     key: 3,
   },
 ];
@@ -71,9 +68,7 @@ function Example(args) {
       next={next}
       previous={previous}
       {...args}
-      style={{
-        margin: "0.8rem",
-      }}
+      style={{}}
     >
       <CarouselIndicators
         items={items}

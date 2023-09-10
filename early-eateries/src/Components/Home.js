@@ -10,6 +10,9 @@ import {
   Button,
   ListGroup,
   ListGroupItem,
+  Pagination,
+  PaginationItem,
+  PaginationLink,
 } from "reactstrap";
 import "./Home.css";
 import { earlyeateries } from "../Store/data.js";
@@ -18,6 +21,31 @@ export default function Home() {
   console.log(eateryList);
   const bgColor = "#E7E8D1";
   const getEateryCardList = (List) => {
+    return (
+      <>
+        {" "}
+        <div style={{ margin: "2.5%" }}>
+          <Card
+            style={{
+              width: "18rem",
+            }}
+          >
+            <img alt="Sample" src="https://picsum.photos/300/200" />
+            <CardBody>
+              <CardTitle tag="h5">Vaidya Hotel</CardTitle>
+              <CardSubtitle className="mb-2 text-muted" tag="h6">
+                Misal
+              </CardSubtitle>
+
+              <Button style={{ backgroundColor: " #16909d" }}>Comment</Button>
+              <Button style={{ backgroundColor: "#cc0000", margin: "3.5%" }}>
+                Info
+              </Button>
+            </CardBody>
+          </Card>
+        </div>
+      </>
+    );
     return (
       <div class="eatery">
         <CardGroup
@@ -112,10 +140,46 @@ export default function Home() {
   };
   return (
     <div>
-      <div class="d-flex" style={{ width: "100%" }}>
-        <div class="leftpane"></div>
-        <div class="middlepane">{getEateryCardList(eateryList)}</div>
-        <div class="rightpane"></div>
+      <div
+        class="d-flex"
+        style={{ width: "100%", marginTop: "3.5%", flexWrap: "wrap" }}
+      >
+        {eateryList.map((eatery, index) => {
+          return <>{getEateryCardList(eatery)}</>;
+        })}
+      </div>
+      <div style={{ marginLeft: "33%" }}>
+        <Pagination aria-label="Page navigation example" size="lg">
+          <PaginationItem>
+            <PaginationLink first href="">
+              First
+            </PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="" previous>
+              Previous
+            </PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="">1</PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="">2</PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="">3</PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="" next>
+              Next
+            </PaginationLink>
+          </PaginationItem>
+          <PaginationItem>
+            <PaginationLink href="" last>
+              Last
+            </PaginationLink>
+          </PaginationItem>
+        </Pagination>
       </div>
     </div>
   );

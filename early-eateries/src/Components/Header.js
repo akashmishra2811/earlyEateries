@@ -21,13 +21,16 @@ export default function Header(props) {
       style={{
         backgroundColor: " #66e0ff",
         color: "white",
+        position: "sticky",
+        top: 0,
+        zIndex: 999,
       }}
     >
       <Navbar>
         <NavbarBrand
           href="/"
           style={{
-            color: "black",
+            color: "White",
             textDecoration: "none",
             fontFamily: "Segoe Script",
           }}
@@ -74,10 +77,7 @@ export default function Header(props) {
             </NavLink>
           </NavItem>
         </Nav>
-        <Button
-          color="#66e0ff"
-         
-        >Login</Button>
+        <Button color="#66e0ff">Login</Button>
       </Navbar>
     </div>
   );

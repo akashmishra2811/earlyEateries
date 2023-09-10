@@ -10,7 +10,7 @@ import AuthenticationPage from "./Components/AuthenticationPage";
 import { BrowserRouter, Switch, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 function App() {
-    const [isLogin , setIsLogin ] = useState(false)
+    const [isLogin, setIsLogin] = useState(true);
   return (
     <div className="App">
       {isLogin ? (

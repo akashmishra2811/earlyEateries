@@ -18,7 +18,7 @@ export default function SignUpForm(props) {
         >
           <div
             class="leftpane"
-            style={{ width: "50%", backgroundColor: " #66e0ff" }}
+            style={{ width: "50%", backgroundColor: " #ff4d4d" }}
           >
             <h1
               style={{
@@ -43,7 +43,7 @@ export default function SignUpForm(props) {
                 earlyEatery family
               </h5>
               <Button
-                style={{ backgroundColor: "#66e0ff", marginTop: "8%" }}
+                style={{ backgroundColor: " #ff4d4d", marginTop: "8%" }}
                 onClick={() => {
                   props.setLogic(true);
                 }}
@@ -59,7 +59,7 @@ export default function SignUpForm(props) {
             <h1
               style={{
                 display: "inline",
-                color: "#66e0ff",
+                color: " #ff4d4d",
                 textDecoration: "none",
                 fontFamily: "Segoe Script",
                 marginRight: "77%",
@@ -108,7 +108,9 @@ export default function SignUpForm(props) {
                     style={{ marginTop: "8%" }}
                   />
                 </FormGroup>
-                <Button style={{ marginTop: "8%", backgroundColor: "#66e0ff" }}>
+                <Button
+                  style={{ marginTop: "8%", backgroundColor: " #ff4d4d" }}
+                >
                   SignUp
                 </Button>
               </Form>
