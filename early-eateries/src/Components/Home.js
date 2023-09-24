@@ -15,6 +15,7 @@ import {
   PaginationLink,
 } from "reactstrap";
 import "./Home.css";
+import Display  from "./Display"
 import { earlyeateries } from "../Store/data.js";
 export default function Home() {
   const eateryList = earlyeateries;
@@ -24,6 +25,7 @@ export default function Home() {
     return (
       <>
         {" "}
+       
         <div style={{ margin: "2.5%" }}>
           <Card
             style={{
@@ -139,6 +141,8 @@ export default function Home() {
     );
   };
   return (
+    <>
+     <Display/>
     <div>
       <div
         class="d-flex"
@@ -182,5 +186,6 @@ export default function Home() {
         </Pagination>
       </div>
     </div>
+    </>
   );
 }

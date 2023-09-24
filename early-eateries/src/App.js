@@ -9,6 +9,7 @@ import SignUpForm from "./Components/SignUpForm";
 import AuthenticationPage from "./Components/AuthenticationPage";
 import { BrowserRouter, Switch, Routes, Route } from "react-router-dom";
 import { useState } from "react";
+import background from "./Store/Photos/background.jpg";
 function App() {
     const [isLogin, setIsLogin] = useState(true);
   return (
@@ -16,7 +17,6 @@ function App() {
       {isLogin ? (
         <BrowserRouter>
           <Header />
-          <Display />
           <Routes>
             <Route exact path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
